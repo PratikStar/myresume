@@ -10,8 +10,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 [params]
     author = "PratikStar"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
-
-
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
@@ -22,20 +20,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         avatar = "avatar.png"
 
 
-
-
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
-
-
-
-
+        text = "TODO. Summarise your career here. What will go here? purpose of professional life. Ambitions."
 
 
     [params.contact]
         enable = true
-        location = "Tokyo"
+        location = "Tokyo, Japan"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -49,47 +41,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-globe"
         url = "#"
         text = "pratikstar.github.io"
-
-
-
-
-
-
-
-    [params.skills]
-        enable = true
-
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "Java/Python/PHP"
-        [[params.skills.list.items]]
-        details = "JavaScript/React/Node.js"
-        [[params.skills.list.items]]
-        details = "MySQL/Redis/Elasticsearch"
-        [[params.skills.list.items]]
-        details = "Docker/Kubernetes/Jenkins"
-        [[params.skills.list.items]]
-        details = "Kafka/RabbitMQ/Consul"
-        [[params.skills.list.items]]
-        details = "Object-oriented/Reactive design"
-        [[params.skills.list.items]]
-        details = "Software Architecture"
-
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-
-
-
-
-
-
 
 
     [params.education]
@@ -118,10 +69,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
         date = "2015"
 
 
+    [params.skills]
+        enable = true
 
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Java/Python/PHP"
+        [[params.skills.list.items]]
+        details = "JavaScript/React/Node.js"
+        [[params.skills.list.items]]
+        details = "MySQL/Redis/Elasticsearch"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes/Jenkins"
+        [[params.skills.list.items]]
+        details = "Kafka/RabbitMQ/Consul"
+        [[params.skills.list.items]]
+        details = "Software Architecture"
 
-
-
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective Communicator"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
 
 
     [params.languages]
@@ -138,17 +111,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         level = "Beginner"
 
 
-
-
-
-
-
-
     [params.interests]
         enable = true
 
         [[params.interests.list]]
-        name = "Playing Guitar & Flute"
+        name = "Guitar & Flute"
         [[params.interests.list]]
         name = "Sport Programming"
         [[params.interests.list]]
@@ -157,17 +124,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Badminton"
         [[params.interests.list]]
         name = "Cooking"
-
-
-
-
-
-
-
-
-
-
-
 
 
     [params.experience]
@@ -189,14 +145,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Mentor-ship - Coached more than 4 newly joined engineers. Currently leading a team of 5"
 
-
-
-
-
         [[params.experience.list]]
         title = "Credit Suisse Business Analytics, India"
         dates = "June 2015 - July 2015 & July 2016 - Sept 2016"
-        company = "Technical Analyst"
         [[params.experience.list.items]]
         details = "Built Searching and Indexing tool based on Elasticsearch for the COO office."
         [[params.experience.list.items]]
@@ -206,24 +157,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Citrus Payment Solutions Pvt. Ltd."
         dates = "December 2015 - March 2016"
         company = "Data Analyst & Developer"
+        [[params.experience.list.items]]
         details = "Worked on Apache Storm as real-time distributed computation layer for analysis on user payment data."
 
         [[params.experience.list]]
         title = "Catalyst Labs Pvt. Ltd."
         dates = "Jan 2015 - April 2015"
         company = "Android Developer"
+        [[params.experience.list.items]]
         details = "Created a Location aware Android app with geocoding. Integrated Aadhaar card(Indian National UID) support."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
         [[params.experience.list]]
         title = "Cubez Technocrats Pvt. Ltd."
         dates = "Dec 2014 - Jan 2015"
         company = "Android & Embedded Systems Developer"
+        [[params.experience.list.items]]
         details = "Experienced with Micro-controller, ATmega-16, using Atmel Studio for it’s programming"
 
 
@@ -231,16 +179,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Shanket Classes Pvt. Ltd."
         dates = "Feb 2014 - Feb 2016"
         company = "Lecturer in Physics"
-        details = "Taught theoretical and applied Physics & Electronics to high school students. Improved teaching skills with batches of 50+ students at times"
-
-
-
-
-
-
-
-
-
+        [[params.experience.list.items]]
+        details = "Taught theoretical and applied Physics & Electronics to high school students."
+        [[params.experience.list.items]]
+        details = "Improved teaching skills with batches of 50+ students at times"
 
 
     [params.projects]
@@ -258,18 +200,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "EasyWay"
         tagline = "An e-KYC system concept for Barclays with extension for bio-metric and integration with user UUID"
 
-
-
         [[params.projects.list]]
         title = "Frenbuy"
         tagline = "Online high-trust classifieds platform for people within network. Built in Android App"
-
-
-
-
-
-
-
 
 
     [params.information]
@@ -295,8 +228,3 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/PratikStar"
         title = "@PratikStar"
-
-
-
-
-
